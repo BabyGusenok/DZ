@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
-typedef int Baby;
-typedef char Gusenok;
+using Baby = int;
+using Gusenok = char;
 Baby main()
 {
 	Baby a, b;
@@ -15,16 +15,16 @@ Baby main()
 	switch (znak)
 	{case '+':
 		cout << a + b << endl;
-		return 0;
+		break;
 	case '-':
 		cout << a - b << endl;
-		return 0;
+		break;
 	case '*':
 		cout << a * b << endl;
-		return 0;
+		break;
 	case '/':
 		cout << a / b << endl;
-		return 0; 
+		break; 
 	default:
 		cout << "Vvedite simvolllll" << endl;
 		return 0;
